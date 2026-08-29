@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Order Management System
+# E-Commerce Order Management System
 
 ![Language](https://img.shields.io/badge/Language-C-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
@@ -9,7 +9,7 @@ A lightweight, terminal-based **Order Management System** written in C, designed
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Real-World Use Cases](#real-world-use-cases)
@@ -26,7 +26,7 @@ A lightweight, terminal-based **Order Management System** written in C, designed
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This project was built as a **Final Project** for a C programming course, demonstrating practical use of:
 
@@ -40,7 +40,7 @@ While console-based, the logic mirrors what real inventory and order management 
 
 ---
 
-## 🌍 Real-World Use Cases
+## Real-World Use Cases
 
 Although this is a terminal application, the concepts it implements are directly applicable to real-world systems:
 
@@ -57,20 +57,20 @@ In a production environment, this system would typically be extended with a data
 
 ---
 
-## ✨ Features
+## Features
 
-- ➕ **Add Orders** — Create new orders with full customer and product details
-- 📋 **Display All Orders** — View all orders in a formatted table
-- 🔍 **Search Orders** — Look up any order instantly by its unique ID
-- ✏️ **Update Orders** — Modify existing order details in place
-- 💾 **Save Orders** — Persist all records to a local `orders.txt` file
-- 📂 **Load Orders** — Automatically restore saved orders on startup
-- ✅ **Input Validation** — Prevents invalid names, prices, quantities, and statuses
-- 🔄 **Order Status Lifecycle** — Supports: `Pending` → `Shipped` → `Delivered` / `Cancelled`
+-  **Add Orders** — Create new orders with full customer and product details
+-  **Display All Orders** — View all orders in a formatted table
+-  **Search Orders** — Look up any order instantly by its unique ID
+-  **Update Orders** — Modify existing order details in place
+-  **Save Orders** — Persist all records to a local `orders.txt` file
+-  **Load Orders** — Automatically restore saved orders on startup
+-  **Input Validation** — Prevents invalid names, prices, quantities, and statuses
+-  **Order Status Lifecycle** — Supports: `Pending` → `Shipped` → `Delivered` / `Cancelled`
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 Ecommerce-Order-Management/
@@ -84,7 +84,7 @@ Ecommerce-Order-Management/
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 Each order is stored as a `struct` with the following fields:
 
@@ -103,7 +103,7 @@ Orders are stored in an in-memory array of up to **100 records**, and saved to `
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -127,7 +127,7 @@ order_manager.exe
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 When you run the program, you'll see the main menu:
 
@@ -184,7 +184,7 @@ Invalid inputs prompt the user to re-enter until a valid value is provided.
 
 ---
 
-## 💾 File Persistence
+## File Persistence
 
 Orders are saved in `orders.txt` using a pipe-delimited format:
 
@@ -198,7 +198,7 @@ This file is created automatically if it doesn't exist, and is read on every pro
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 ```
 ID    Name            Product         Qty   Price      Status
@@ -210,7 +210,7 @@ ID    Name            Product         Qty   Price      Status
 
 ---
 
-## 🔮 Limitations & Future Improvements
+## Limitations & Future Improvements
 
 | Current Limitation | Potential Improvement |
 |---|---|
@@ -224,7 +224,7 @@ ID    Name            Product         Qty   Price      Status
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Rithik** — [@Rithik-HyperLoop69](https://github.com/Rithik-HyperLoop69)
 
